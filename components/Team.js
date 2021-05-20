@@ -17,7 +17,12 @@ export const Team = () => (
         height="medium"
         elevation="large"
       >
-        <Image src="./amanda.jpeg" a11yTitle="Amanda" opacity="strong" />
+        <Image
+          src="./amanda.jpeg"
+          a11yTitle="Amanda"
+          opacity="strong"
+          fit="cover"
+        />
       </Box>
       <Box align="end">
         <Heading level={3} margin="none" size="small">
@@ -35,7 +40,12 @@ export const Team = () => (
         height="medium"
         elevation="large"
       >
-        <Image src="./kenny.jpeg" a11yTitle="Amanda" opacity="strong" />
+        <Image
+          src="./kenny.jpeg"
+          a11yTitle="kenny"
+          opacity="strong"
+          fit="cover"
+        />
       </Box>
       <Box>
         <Heading level={3} margin="none" size="small">

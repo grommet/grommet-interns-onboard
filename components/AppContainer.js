@@ -18,6 +18,7 @@ export const AppContainer = ({ children }) => (
     >
       <Box
         flex
+        fill
         margin={{ horizontal: "auto", vertical: "large" }}
         width={{ max: "xlarge" }}
         height={{ min: "100%" }}
