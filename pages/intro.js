@@ -10,6 +10,83 @@ export default function Home() {
       <Box pad={{ horizontal: "large" }}>
         <Heading>Design & Dev Intro</Heading>
         <Paragraph>
+          We are excited to have you join our team! HPE is one of the most
+          dynamic, industry-leading companies in the technology world, with
+          ample opportunities for growth and a relentless commitment to being
+          the best at everything we do. HPE have developed an onboarding program
+          designed to prepare you for success in your internship. Your virtual
+          intern orientation class is where you will meet fellow interns, and
+          learn about strategies for success in your HPE internship, as well as
+          receive information about the many useful resources at HPE.
+        </Paragraph>
+        <Paragraph>
+          The Experience Studio is the central design team of Hewlett Packard
+          Enterprise. We are focused on creating accessible and inclusive
+          experiences for the customer. We work across the organization to
+          provide design, research, and development services for our products.
+        </Paragraph>
+        <Paragraph>
+          The orientation will be mostly focused on PC setup. Since the HPE
+          Experience Studio is mostly using Mac, some of the instructions might
+          not be relevant for you and you'll have to use other resources to go
+          through the Set Up process successfully. Do not react HPE IT with
+          questions, since they do not support Mac.
+        </Paragraph>
+        <Paragraph>
+          The following is a list of resources you can use to brave the Set-Up
+          process
+        </Paragraph>
+        <Box align="start">
+          <List
+            primaryKey="name"
+            secondaryKey="value"
+            data={[
+              { name: "Aruba IT Help Desk", value: "martin.mench@hpe.com" },
+              {
+                name: "HR - Aruba Set-Up training on Mac",
+                value: "sylvia.ruiz@hpe.com",
+              },
+              {
+                name: (
+                  <Anchor
+                    href="https://publisher.grommet.io/get-started?name=HPEXS"
+                    label="HPEX Guide"
+                  />
+                ),
+              },
+            ]}
+          />
+        </Box>
+        <Paragraph>
+          The HPE Experience Studio team is getting a project in place that we
+          think you’ll be excited to work on.{" "}
+        </Paragraph>
+        <Paragraph>
+          The following is a list of resources you can use to start to get
+          familiarized with our vision
+        </Paragraph>
+        <Box align="start">
+          <List
+            primaryKey="name"
+            secondaryKey="value"
+            data={[
+              {
+                name: "The Grommet Open Source",
+                value: <Anchor label="Website" href="https://v2.grommet.io/" />,
+              },
+              {
+                name: "The HPE Design-System Open Source",
+                value: (
+                  <Anchor
+                    label="Website"
+                    href="https://design-system.hpe.design/"
+                  />
+                ),
+              },
+            ]}
+          />
+        </Box>
+        <Paragraph>
           You should have received your Mac and will be receiving a YubiKey
           soon. This little YubiKey is a device that will allow you to access
           the HPE Intranet. Once we have your HPE email up and running on your
@@ -66,8 +143,10 @@ export default function Home() {
           />
         </Box>
         <Heading level={2}>General Set-up Info and resources</Heading>
-        <Heading level={3}>YubiKey</Heading>
-        <Paragraph fill>
+        <Heading level={3} size="small">
+          YubiKey
+        </Heading>
+        <Paragraph>
           Follow the{" "}
           <Anchor
             label="guidelines"
@@ -76,18 +155,34 @@ export default function Home() {
           of installing a YubiKey and install a certificate on the YubiKey
           itself.
         </Paragraph>
-        <Heading level={3}>MFA</Heading>
+        <Heading level={3} size="small">
+          MFA
+        </Heading>
         <Paragraph>
-          When trying to access Outlook you will probably get an error asking to
-          setup multi-factor authentication (MFA). Connect to the{" "}
+          PingID is a multi-factor authentication (MFA) software. When trying to
+          access Outlook you will probably get an error asking to setup
+          multi-factor authentication. Connect to the MFA{" "}
           <Anchor
             label="instructions"
             href="https://mfa-registration.austin.hpe.com/uid-mfa-sso/"
           />{" "}
-          for how to setup PingID to obtain MFA. Installation will occur on your
-          mobile or second device as well.
+          to learn how to setup PingID to obtain MFA. Installation will occur on
+          your mobile or a second hardware device as well.
         </Paragraph>
-        <Heading level={3}>VPN Access</Heading>
+        <Heading level={3} size="small">
+          Reset Password
+        </Heading>
+        <Paragraph>
+          You'll get an initial password from your manager, and during the
+          set-up process you'll need to reset it. Regardless, HPE is requesting
+          to change passwords every 90 days, so you'll need to use the{" "}
+          <Anchor
+            label="Reset Password Tool"
+            href="https://domain-services.corp.hpecorp.net/ResetDomainPassword/"
+          />{" "}
+          every once in a while in case you are using a Mac.{" "}
+        </Paragraph>
+
         <Paragraph fill> </Paragraph>
         <Heading level={2}>Thank You</Heading>
         <Paragraph>
