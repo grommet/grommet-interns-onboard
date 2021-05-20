@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8bd44c6d-2b67-4755-a6cb-1544b2e7cdbd/deploy-status)](https://app.netlify.com/sites/elegant-benz-9d0e37/deploys)
 
-Access the [deployment](https://elegant-benz-9d0e37.netlify.app/intro) of this site.
+Access the [deployment](https://elegant-benz-9d0e37.netlify.app) of this site.
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
