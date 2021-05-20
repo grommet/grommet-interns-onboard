@@ -29,7 +29,7 @@ export const Quote = () => (
             opacity="medium"
           />
         </Box>
-        <Box>
+        <Box align="center">
           <Paragraph weight="bold" size="large" textAlign="center">
             <b>
               Through this internship gained skills in React, Typescript, and
@@ -38,7 +38,7 @@ export const Quote = () => (
               skills.
             </b>
           </Paragraph>
-          <Paragraph margin="none">
+          <Paragraph margin="none" textAlign="center">
             Jessica Cheyenne Filben, Intern of 2020
           </Paragraph>
         </Box>
