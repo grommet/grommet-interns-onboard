@@ -7,7 +7,7 @@ import { Box, Heading, Paragraph, Image, Text } from "grommet";
 export default function Home() {
   return (
     <AppContainer>
-      <Box pad={{ horizontal: "large" }} >
+      <Box pad={{ horizontal: "large" }}>
         <Heading>Developer Intro</Heading>
         <InternIntro
           src="./amanda.jpeg"
