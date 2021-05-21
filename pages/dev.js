@@ -2,12 +2,12 @@ import React from "react";
 
 import { AppContainer, InternIntro } from "../components";
 
-import { Box, Heading, Paragraph, Text } from "grommet";
+import { Box, Heading, Paragraph, Image } from "grommet";
 
 export default function Home() {
   return (
     <AppContainer>
-      <Box pad={{ horizontal: "large" }}>
+      <Box pad={{ horizontal: "large" }} >
         <Heading>Developer Intro</Heading>
         <InternIntro
           src="./amanda.jpeg"
@@ -18,21 +18,30 @@ export default function Home() {
           email="amanda.dupell@hpe.com"
           linkedIn="https://www.linkedin.com/in/amanda-dupell-profile/"
         />
-        <Paragraph size="large">
-          You are expecting an exciting internship diving into the open-source
-          world and the community of grommet.io, so far we have more than +3,700
-          members on our slack channel, a great team, loads of enhancements
-          requests and an exciting road-map for both grommet and the HPE
-          Design-System.
-        </Paragraph>
-        <Paragraph size="large">
-          Shimrit (Shimi) Yacobi, will be your “HPE Onboarding Buddy” (located
-          in Fort Collins, CO) and a primary contact to get you oriented to HPE
-          which includes getting your Mac set up, getting connected to the HPE
-          Network, and addressing any questions about the team and internship
-          project and such.
-        </Paragraph>
-        <Box></Box>
+        <Box
+          background="background-contrast"
+          align="center"
+          margin={{ vertical: "xlarge" }}
+          pad={{ vertical: "medium" }}
+        >
+        <Box align="center" justify="center">
+          <Image
+            src="/Quotation Marks.svg"
+            width="56"
+            height="40"
+            a11yTitle="Quotation Marks"
+            opacity="medium"
+          />
+        </Box>
+        <Box>
+          <Paragraph weight="bold" size="large" textAlign="center">
+            <b>
+              My name is Amanda Dupell and I am super excited to start working as a UI/UX
+              Developer Intern as a part of HPE's Experience Studio and Design System team!
+            </b>
+          </Paragraph>
+        </Box>
+      </Box>
       </Box>
     </AppContainer>
   );
