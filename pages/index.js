@@ -32,14 +32,15 @@ export default function Home() {
       <Box align="center">
         <Paragraph size="large">
           The Experience Studio is the central design team of Hewlett Packard
-          Enterprise. We are focused on creating accessible and inclusive
+          Enterprise CTO. We are focused on creating accessible and inclusive
           experiences for the customer. We work across the organization to
-          provide design, research, and development services for our products.
+          provide design, research, and development services for our products,
+          and we are glad you'll be joining our journey.
         </Paragraph>
         <Paragraph size="large">
-          The HPE Experience Studio team is getting a project in place that we
-          think you’ll be excited to work on. You can find more details on the
-          design and development pages.{" "}
+          The HPE Experience Studio team is getting an internship project in
+          place that we think you’ll be excited to work on. Browse the Intro,
+          Design or Development pages to find more details.{" "}
         </Paragraph>
       </Box>
     </AppContainer>
