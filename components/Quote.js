@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Image, Box, Paragraph, Text } from "grommet";
+import { Image, Box, Paragraph, Heading } from "grommet";
 
 export const Quote = () => (
   <Box
@@ -10,6 +10,12 @@ export const Quote = () => (
     pad={{ vertical: "medium" }}
   >
     <Box justify="between" align="center" gap="medium">
+      <Heading level={3} margin="none">
+        From HPE Intern to a Full Time Engineer
+      </Heading>
+      <Heading level={4} margin="none" size="small">
+        Meet Jessica
+      </Heading>
       <Box round="full" overflow="hidden">
         <Image
           src="/jessica.jpeg"
@@ -32,10 +38,10 @@ export const Quote = () => (
         <Box align="center">
           <Paragraph weight="bold" size="large" textAlign="center">
             <b>
-              Through this internship gained skills in React, Typescript, and
-              Github. I also got exposure to the design side of things and feel
-              that I was given exciting projects to work on that enhanced my dev
-              skills.
+              Through this internship I have gained skills in React, Typescript,
+              and Github. I also got exposure to the design side of things and
+              feel that I was given exciting projects to work on that enhanced
+              my dev skills.
             </b>
           </Paragraph>
           <Paragraph margin="none" textAlign="center">

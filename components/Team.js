@@ -25,7 +25,7 @@ export const Team = () => (
         />
       </Box>
       <Box align="end">
-        <Heading level={3} margin="none" size="small">
+        <Heading level={4} margin="none" size="small">
           Amanda Dupell
         </Heading>
         <Text>Developer Intern</Text>
@@ -48,7 +48,7 @@ export const Team = () => (
         />
       </Box>
       <Box>
-        <Heading level={3} margin="none" size="small">
+        <Heading level={4} margin="none" size="small">
           Kenny Tran
         </Heading>
         <Text>Design Intern</Text>

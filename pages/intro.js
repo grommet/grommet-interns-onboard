@@ -20,12 +20,6 @@ export default function Home() {
           receive information about the many useful resources at HPE.
         </Paragraph>
         <Paragraph>
-          The Experience Studio is the central design team of Hewlett Packard
-          Enterprise. We are focused on creating accessible and inclusive
-          experiences for the customer. We work across the organization to
-          provide design, research, and development services for our products.
-        </Paragraph>
-        <Paragraph>
           The orientation will be mostly focused on PC setup. Since the HPE
           Experience Studio is mostly using Mac, some of the instructions might
           not be relevant for you and you'll have to use other resources to go
@@ -57,10 +51,7 @@ export default function Home() {
             ]}
           />
         </Box>
-        <Paragraph>
-          The HPE Experience Studio team is getting a project in place that we
-          think you’ll be excited to work on.{" "}
-        </Paragraph>
+   
         <Paragraph>
           The following is a list of resources you can use to start to get
           familiarized with our vision

@@ -49,7 +49,7 @@ export const AppContainer = ({ children }) => (
               />
               <Anchor
                 a11yTitle="Github repository"
-                href="https://github.com/grommet/interns-2021"
+                href="https://github.com/grommet/grommet-interns-onboard"
                 icon={<Github color="black" />}
                 target="_blank"
                 rel="noreferrer noopener"
