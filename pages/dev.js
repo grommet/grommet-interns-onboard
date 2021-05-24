@@ -99,7 +99,7 @@ export default function Home() {
             in Grommet will allow me to build a foundation of knowledge and comfort
             within the framework. From there, my next focus will be to work with {
               <Anchor href="https://design-system.hpe.design/">
-                HPE's Design System
+                HPE Design System
               </Anchor>
             }, created entirely with the Grommet framework.
           </Paragraph>
