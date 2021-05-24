@@ -106,7 +106,7 @@ export default function Home() {
           <Paragraph size="medium">
             Later into my internship, I will be working alongside my fellow 2021
             intern, Kenny, to dive deeper into this design system and make 
-            meaningful contributions to launch HPE forward. 
+            meaningful contributions to launch HPE forward.
           </Paragraph>
       </Box>
     </AppContainer>
