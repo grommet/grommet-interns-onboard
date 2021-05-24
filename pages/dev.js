@@ -97,7 +97,8 @@ export default function Home() {
           <Paragraph size="medium">
             Learning more about accessibility standards and improving upon them
             in Grommet will allow me to build a foundation of knowledge and comfort
-            within the framework. From there, my next focus will be to work with {
+            within the framework. From there, my next focus will be to work within
+            the {
               <Anchor href="https://design-system.hpe.design/">
                 HPE Design System
               </Anchor>
