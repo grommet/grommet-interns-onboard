@@ -57,7 +57,7 @@ export default function Home() {
         </Box>
         <Paragraph size="medium">
           Here is a list of helpful links in relation to accessibility and 
-          how HPE is directly addressing and making contirubtions to better our 
+          how HPE is directly addressing and making contributions to better our 
           code:
         </Paragraph>
         <Box align="start" pad={{left: "medium"}}>
@@ -87,8 +87,8 @@ export default function Home() {
                     </Anchor>
                   } An overlook of HPE's commitment to continuously bettering our 
                   accessibility as well as a list of helpful resources for developers to 
-                  use on their own to learn best practice and latest information
-                  in-industry
+                  use on their own to learn best practices and the latest developments
+                  in the industry
                 </Paragraph>
               }
             ]}
@@ -97,7 +97,7 @@ export default function Home() {
           <Paragraph size="medium">
             Learning more about accessibility standards and improving upon them
             in Grommet will allow me to build a foundation of knowledge and comfort
-            within the framework. From here, my next focus will be to work with {
+            within the framework. From there, my next focus will be to work with {
               <Anchor href="https://design-system.hpe.design/">
                 HPE's Design System
               </Anchor>
