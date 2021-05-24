@@ -57,43 +57,43 @@ export default function Home() {
         </Box>
         <Paragraph size="medium">
           Here is a list of helpful links in relation to accessibility and 
-          how HPE is directly addressing and making conftirubtions to better our 
+          how HPE is directly addressing and making contirubtions to better our 
           code:
         </Paragraph>
         <Box align="start" pad={{left: "medium"}}>
           <List
-              primaryKey="item"
-              data={[
-                { item:
-                  <Paragraph size="small" >
-                    - {
-                      <Anchor href="https://github.com/grommet/grommet/issues/4068">
-                        Grommet Accessibility Audit:
-                      </Anchor>
-                    } An open issue in our Grommet repo to help identify accessibility
-                    improvements that can be made to better align the library with{" "}
-                    {
-                      <Anchor href="https://www.w3.org/TR/WCAG21/">
-                        WCAG standards
-                      </Anchor>
-                    }
-                  </Paragraph> 
-                },
-                { item:
-                  <Paragraph size="small" >
-                    - {
-                      <Anchor href="https://design-system.hpe.design/foundation/accessibility">
-                        HPE Design System Accessibility Principles and Resources:
-                      </Anchor>
-                    } An overlook of HPE's commitment to continuously bettering our 
-                    accessibility as well as a list of helpful resources for developers to 
-                    use on their own to learn best practice and latest information
-                    in-industry
-                  </Paragraph>
-                }
-              ]}
-            />
-          </Box>
+            primaryKey="item"
+            data={[
+              { item:
+                <Paragraph size="small" >
+                  - {
+                    <Anchor href="https://github.com/grommet/grommet/issues/4068">
+                      Grommet Accessibility Audit:
+                    </Anchor>
+                  } An open issue in our Grommet repo to help identify accessibility
+                  improvements that can be made to better align the library with{" "}
+                  {
+                    <Anchor href="https://www.w3.org/TR/WCAG21/">
+                      WCAG standards
+                    </Anchor>
+                  }
+                </Paragraph> 
+              },
+              { item:
+                <Paragraph size="small" >
+                  - {
+                    <Anchor href="https://design-system.hpe.design/foundation/accessibility">
+                      HPE Design System Accessibility Principles and Resources:
+                    </Anchor>
+                  } An overlook of HPE's commitment to continuously bettering our 
+                  accessibility as well as a list of helpful resources for developers to 
+                  use on their own to learn best practice and latest information
+                  in-industry
+                </Paragraph>
+              }
+            ]}
+          />
+        </Box>
           <Paragraph size="medium">
             Learning more about accessibility standards and improving upon them
             in Grommet will allow me to build a foundation of knowledge and comfort
@@ -108,6 +108,16 @@ export default function Home() {
             intern, Kenny, to dive deeper into this design system and make 
             meaningful contributions to launch HPE forward.
           </Paragraph>
+          <Box direction="row" pad={{top: "large"}}>
+            <Text weight="bold" size="4xl">Let's Get to Work!</Text>
+            <Box size="small">
+              <Image
+                fit="contain"
+                src="/stak-hurrah.svg"
+                a11yTitle="grommet hurrah mascot"
+              />
+            </Box>
+          </Box>
       </Box>
     </AppContainer>
   );
