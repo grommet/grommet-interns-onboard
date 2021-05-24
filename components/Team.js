@@ -17,10 +17,15 @@ export const Team = () => (
         height="medium"
         elevation="large"
       >
-        <Image src="./amanda.jpeg" a11yTitle="Amanda" opacity="strong" />
+        <Image
+          src="./amanda.jpeg"
+          a11yTitle="Amanda"
+          opacity="strong"
+          fit="cover"
+        />
       </Box>
       <Box align="end">
-        <Heading level={3} margin="none" size="small">
+        <Heading level={4} margin="none" size="small">
           Amanda Dupell
         </Heading>
         <Text>Developer Intern</Text>
@@ -35,10 +40,15 @@ export const Team = () => (
         height="medium"
         elevation="large"
       >
-        <Image src="./kenny.jpeg" a11yTitle="Amanda" opacity="strong" />
+        <Image
+          src="./kenny.jpeg"
+          a11yTitle="kenny"
+          opacity="strong"
+          fit="cover"
+        />
       </Box>
       <Box>
-        <Heading level={3} margin="none" size="small">
+        <Heading level={4} margin="none" size="small">
           Kenny Tran
         </Heading>
         <Text>Design Intern</Text>

@@ -29,23 +29,25 @@ export const Header = () => {
       background="background-front"
       pad={{ vertical: "medium", horizontal: "large" }}
     >
-      <Box
-        direction="row"
-        align="start"
-        gap="medium"
-        // pad maintains accessible hit target
-        // non-responsive maintains same dimensions for mobile
-        pad={{ vertical: "small" }}
-        responsive={false}
-      >
-        <Hpe color="brand" aria-label={undefined} />
-        <Box gap="xsmall" direction="row-responsive">
-          <Text color="text-strong" weight="bold">
-            HPE
-          </Text>
-          <Text color="text-strong">Experience Studio</Text>
+      <Link href="./">
+        <Box
+          direction="row"
+          align="start"
+          gap="medium"
+          // pad maintains accessible hit target
+          // non-responsive maintains same dimensions for mobile
+          pad={{ vertical: "small" }}
+          responsive={false}
+        >
+          <Hpe color="brand" aria-label={undefined} />
+          <Box gap="xsmall" direction="row-responsive">
+            <Text color="text-strong" weight="bold">
+              HPE
+            </Text>
+            <Text color="text-strong">Experience Studio</Text>
+          </Box>
         </Box>
-      </Box>
+      </Link>
       <Box>
         {size !== "small" ? (
           <Nav direction="row" justify="between" fill>
