@@ -35,13 +35,11 @@ export default function Home() {
         </Paragraph>
         <Box pad={{vertical: "large"}}>
           <Card width="large" elevation="xlarge">
-            <CardBody height="medium">
-              <Image
-                fit="cover"
-                src="/waveexample.png"
-                a11yTitle="WAVE accessibility tool screenshot example"
-              />
-            </CardBody>
+            <Image
+              fit="cover"
+              src="/waveexample.png"
+              a11yTitle="WAVE accessibility tool screenshot example"
+            />
             <CardFooter background="#000000A0" width="large" justify="start">
               <Text>
                 An example using the {
