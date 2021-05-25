@@ -36,7 +36,7 @@ export const AppContainer = ({ children }) => (
             background="light-2"
             pad={{ vertical: "small", horizontal: "medium" }}
           >
-            <Anchor href="https://github.com/ShimiSun">
+            <Anchor a11yTitle="profile avatar" href="https://github.com/ShimiSun">
               <Avatar src={gravatarLink} />
             </Anchor>
             <Nav direction="row" align="center">
