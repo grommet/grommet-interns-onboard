@@ -70,14 +70,14 @@ export default function Home() {
             data={[
               { item:
                 <Paragraph size="small" >
-                  - {
+                  {
                     <Anchor
                       a11yTitle="grommet accessibility audit"
                       href="https://github.com/grommet/grommet/issues/4068"
                     >
                       Grommet Accessibility Audit:
                     </Anchor>
-                  } An open issue in our Grommet repo to help identify accessibility
+                  } <br/> An open issue in our Grommet repo to help identify accessibility
                   improvements that can be made to better align the library with{" "}
                   {
                     <Anchor 
@@ -91,14 +91,14 @@ export default function Home() {
               },
               { item:
                 <Paragraph size="small" >
-                  - {
+                  {
                     <Anchor 
                       a11yTitle="HPE Design System Accessibility"
                       href="https://design-system.hpe.design/foundation/accessibility"
                     >
-                      HPE Design System Accessibility Principles and Resources:
+                      HPE Design System Accessibility Documentation:
                     </Anchor>
-                  } An overlook of HPE's commitment to continuously bettering our 
+                  } <br/> An overlook of HPE's commitment to continuously bettering our 
                   accessibility as well as a list of helpful resources for developers to 
                   use on their own to learn best practices and the latest developments
                   in the industry
