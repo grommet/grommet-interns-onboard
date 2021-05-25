@@ -45,7 +45,10 @@ export default function Home() {
             <CardFooter background="#000000A0" width="large" justify="start">
               <Text>
                 An example using the {
-                  <Anchor a11yTitle="WAVE accessibility" href="https://wave.webaim.org/">
+                  <Anchor 
+                    a11yTitle="WAVE accessibility" 
+                    href="https://wave.webaim.org/"
+                  >
                     WAVE accessibility tool
                   </Anchor>
                 } to evaluate a work-in-progress webpage. Using tools like this 
