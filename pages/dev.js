@@ -2,7 +2,7 @@ import React from "react";
 
 import { AppContainer, InternIntro } from "../components";
 
-import { Box, Heading, Paragraph, List, Text, Anchor, Card, CardBody, CardFooter, Image } from "grommet";
+import { Anchor, Box, Card, CardBody, CardFooter, Heading, Image, List, Paragraph, Text } from "grommet";
 
 export default function Home() {
   return (
@@ -28,7 +28,9 @@ export default function Home() {
           learning opportunities to look forward to this summer and beyond. One of
           the first things I will be working on is the continuous improvement of 
           accessibility across {
-            <Anchor href="https://github.com/grommet/grommet">Grommet</Anchor>
+            <Anchor a11yTitle="grommet" href="https://github.com/grommet/grommet">
+              Grommet
+            </Anchor>
           } components. This process begins by researching and diving head first 
           into development tools to real-time inspect the web pages and 
           components I will be contributing to and building. 
@@ -43,7 +45,7 @@ export default function Home() {
             <CardFooter background="#000000A0" width="large" justify="start">
               <Text>
                 An example using the {
-                  <Anchor href="https://wave.webaim.org/">
+                  <Anchor a11yTitle="WAVE accessibility" href="https://wave.webaim.org/">
                     WAVE accessibility tool
                   </Anchor>
                 } to evaluate a work-in-progress webpage. Using tools like this 
@@ -65,13 +67,19 @@ export default function Home() {
               { item:
                 <Paragraph size="small" >
                   - {
-                    <Anchor href="https://github.com/grommet/grommet/issues/4068">
+                    <Anchor
+                      a11yTitle="grommet accessibility audit"
+                      href="https://github.com/grommet/grommet/issues/4068"
+                    >
                       Grommet Accessibility Audit:
                     </Anchor>
                   } An open issue in our Grommet repo to help identify accessibility
                   improvements that can be made to better align the library with{" "}
                   {
-                    <Anchor href="https://www.w3.org/TR/WCAG21/">
+                    <Anchor 
+                      a11yTitle="WCAG standards"
+                      href="https://www.w3.org/TR/WCAG21/"
+                    >
                       WCAG standards
                     </Anchor>
                   }
@@ -80,7 +88,10 @@ export default function Home() {
               { item:
                 <Paragraph size="small" >
                   - {
-                    <Anchor href="https://design-system.hpe.design/foundation/accessibility">
+                    <Anchor 
+                      a11yTitle="HPE Design System Accessibility"
+                      href="https://design-system.hpe.design/foundation/accessibility"
+                    >
                       HPE Design System Accessibility Principles and Resources:
                     </Anchor>
                   } An overlook of HPE's commitment to continuously bettering our 
@@ -97,7 +108,10 @@ export default function Home() {
             in Grommet will allow me to build a foundation of knowledge and comfort
             within the framework. From there, my next focus will be to work within
             the {
-              <Anchor href="https://design-system.hpe.design/">
+              <Anchor 
+                a11yTitle="HPE Design System" 
+                href="https://design-system.hpe.design/"
+              >
                 HPE Design System
               </Anchor>
             }, created entirely with the Grommet framework.
@@ -109,7 +123,7 @@ export default function Home() {
           </Paragraph>
           <Box direction="row" pad={{top: "large"}}>
             <Text weight="bold" size="4xl">Let's Get to Work!</Text>
-            <Box size="small">
+            <Box width="medium">
               <Image
                 fit="contain"
                 src="/stak-hurrah.svg"
