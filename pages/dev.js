@@ -19,7 +19,8 @@ export default function Home() {
           linkedIn="https://www.linkedin.com/in/amanda-dupell-profile/"
         />
         <Text size="3xl" weight="bold" >Hi, there!</Text>
-        <Paragraph size="large">My name is Amanda Dupell and I am super excited to start
+        <Paragraph size="large">
+          My name is Amanda Dupell and I am super excited to start
           working as a UI/UX Developer Intern as a part of HPE's Experience 
           Studio and Design System team!
         </Paragraph>
