@@ -44,14 +44,14 @@ export default function Home() {
                 name: (
                   <Anchor
                     href="https://publisher.grommet.io/get-started?name=HPEXS"
-                    label="HPEX Guide"
+                    label="HPEXS Guide"
                   />
                 ),
               },
             ]}
           />
         </Box>
-   
+
         <Paragraph>
           The following is a list of resources you can use to start to get
           familiarized with our vision
