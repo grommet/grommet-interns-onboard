@@ -2,7 +2,7 @@ import React from "react";
 
 import { AppContainer, InternIntro } from "../components";
 
-import { Box, Heading, Paragraph, Text } from "grommet";
+import { Anchor, Box, Card, CardFooter, Heading, Image, List, Paragraph, Text } from "grommet";
 
 export default function Home() {
   return (
@@ -18,21 +18,123 @@ export default function Home() {
           email="amanda.dupell@hpe.com"
           linkedIn="https://www.linkedin.com/in/amanda-dupell-profile/"
         />
+        <Text size="3xl" weight="bold" >Hi, there!</Text>
         <Paragraph size="large">
-          You are expecting an exciting internship diving into the open-source
-          world and the community of grommet.io, so far we have more than +3,700
-          members on our slack channel, a great team, loads of enhancements
-          requests and an exciting road-map for both grommet and the HPE
-          Design-System.
+          My name is Amanda Dupell and I am super excited to start
+          working as a UI/UX Developer Intern as a part of HPE's Experience 
+          Studio and Design System team!
         </Paragraph>
-        <Paragraph size="large">
-          Shimrit (Shimi) Yacobi, will be your “HPE Onboarding Buddy” (located
-          in Fort Collins, CO) and a primary contact to get you oriented to HPE
-          which includes getting your Mac set up, getting connected to the HPE
-          Network, and addressing any questions about the team and internship
-          project and such.
+        <Paragraph size="medium">
+          As I begin my internship at HPE, I have a lot of exciting projects and 
+          learning opportunities to look forward to this summer and beyond. One of
+          the first things I will be working on is the continuous improvement of 
+          accessibility across {
+            <Anchor a11yTitle="grommet" href="https://github.com/grommet/grommet">
+              Grommet
+            </Anchor>
+          } components. This process begins by researching and diving head first 
+          into development tools to real-time inspect the web pages and 
+          components I will be contributing to and building. 
         </Paragraph>
-        <Box></Box>
+        <Box pad={{vertical: "large"}}>
+          <Card width="large" elevation="xlarge">
+            <Image
+              fit="cover"
+              src="/waveexample.png"
+              a11yTitle="WAVE accessibility tool screenshot example"
+            />
+            <CardFooter background="#000000A0" width="large" justify="start">
+              <Text>
+                An example using the {
+                  <Anchor 
+                    a11yTitle="WAVE accessibility" 
+                    href="https://wave.webaim.org/"
+                  >
+                    WAVE accessibility tool
+                  </Anchor>
+                } to evaluate a work-in-progress webpage. Using tools like this 
+                provides direct feedback and resources to fixing issues with 
+                your application's accessibility.
+              </Text>
+            </CardFooter>
+          </Card>
+        </Box>
+        <Paragraph size="medium">
+          Here is a list of helpful links in relation to accessibility and 
+          how HPE is directly addressing and making contributions to better our 
+          code:
+        </Paragraph>
+        <Box align="start" pad={{left: "medium"}}>
+          <List
+            primaryKey="item"
+            data={[
+              { item:
+                <Paragraph size="small" >
+                  {
+                    <Anchor
+                      a11yTitle="grommet accessibility audit"
+                      href="https://github.com/grommet/grommet/issues/4068"
+                    >
+                      Grommet Accessibility Audit:
+                    </Anchor>
+                  } <br/> An open issue in our Grommet repo to help identify accessibility
+                  improvements that can be made to better align the library with{" "}
+                  {
+                    <Anchor 
+                      a11yTitle="WCAG standards"
+                      href="https://www.w3.org/TR/WCAG21/"
+                    >
+                      WCAG standards
+                    </Anchor>
+                  }
+                </Paragraph> 
+              },
+              { item:
+                <Paragraph size="small" >
+                  {
+                    <Anchor 
+                      a11yTitle="HPE Design System Accessibility"
+                      href="https://design-system.hpe.design/foundation/accessibility"
+                    >
+                      HPE Design System Accessibility Documentation:
+                    </Anchor>
+                  } <br/> An overlook of HPE's commitment to continuously bettering our 
+                  accessibility as well as a list of helpful resources for developers to 
+                  use on their own to learn best practices and the latest developments
+                  in the industry
+                </Paragraph>
+              }
+            ]}
+          />
+        </Box>
+          <Paragraph size="medium">
+            Learning more about accessibility standards and improving upon them
+            in Grommet will allow me to build a foundation of knowledge and comfort
+            within the framework. From there, my next focus will be to work within
+            the {
+              <Anchor 
+                a11yTitle="HPE Design System" 
+                href="https://design-system.hpe.design/"
+              >
+                HPE Design System
+              </Anchor>
+            }, created entirely with the Grommet framework.
+          </Paragraph>
+          <Paragraph size="medium">
+            Later into my internship, I will be working alongside my fellow 2021
+            intern, Kenny, to dive deeper into this design system and make 
+            meaningful contributions to launch HPE forward.
+          </Paragraph>
+          <Box direction="row" pad={{top: "large"}}>
+            <Heading>Let's get to work!</Heading>
+            <Box width="medium">
+              <Image
+                fit="contain"
+                src="/stak-hurrah.svg"
+                a11yTitle="grommet hurrah mascot"
+              />
+            </Box>
+          </Box>
       </Box>
     </AppContainer>
   );
