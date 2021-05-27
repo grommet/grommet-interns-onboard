@@ -18,8 +18,13 @@ export default function Home() {
         </Paragraph>
         <Paragraph size="large">
           So far we had a great success with the interns program across HPE, and
-          we are glad to have you joined this exciting journey at the HPE CTO
-          Experience Studio.
+          we are glad to have the 2021 interns join this exciting journey at the
+          HPE CTO Experience Studio.
+        </Paragraph>
+        <Paragraph size="large">
+          This website of the 'interns hub', introduces the interns program, the
+          interns team and the projects and challenges they will be working on
+          during the course of the internship.
         </Paragraph>
         <Box align="center" margin={{ vertical: "medium" }}>
           <Heading level={3} margin="none">
