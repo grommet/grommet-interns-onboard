@@ -56,22 +56,22 @@ export default function Home() {
         </Paragraph>
         <Heading level="3">First Phase - Web Accessibility</Heading>
         <Paragraph size="large">
-          One of Grommet's core tenants is Accessibility. In Grommet we aim for
-          inclusive design that provide equal access and equal opportunity to
+          One of Grommet's core tenants is Accessibility. In Grommet, we aim for
+          inclusive design that provides equal access and equal opportunity to
           people with diverse abilities. Access to information and
           communications technologies, including the Web, is defined as a basic
           human right and we thrive to comply it and be an inclusive component
           library.
         </Paragraph>
         <Paragraph size="large">
-          Web Accessibility has many different layers had accessibility supports
+          Web Accessibility has many different layers and accessibility supports
           in terms of visual impaired users, screen readers, keyboard navigation
           and more. The developer intern will dive into this accessibility
-          world, and the WCAG standards and bring the Grommet component library
+          world and the WCAG standards to bring the Grommet component library
           closer to those standards and accessibility expectations.
         </Paragraph>
         <Paragraph size="large">
-          Accessibility is a great learning opportunity for developer
+          Accessibility is a great learning opportunity for the developer
           internship, and the continuous improvement of accessibility across{" "}
           {
             <Anchor
@@ -84,7 +84,7 @@ export default function Home() {
           components will benefit the library greatly. This process begins by
           researching and diving head first into development tools to real-time
           inspect the web pages and components, learn any accessibility caveats
-          that may exist in the framework and ultimately get them resolved.
+          that may exist in the framework, and ultimately get them resolved.
           Learning more about accessibility standards and improving upon them in
           Grommet will allow Amanda to build a foundation of knowledge and
           comfort within the framework.
@@ -187,7 +187,7 @@ export default function Home() {
         </Paragraph>
         <Paragraph size="large">
           After gaining more knowledge and expertise around the grommet library,
-          the challenge will be to learn about real world design requirements at
+          the next challenge will be to learn about real world design requirements at
           HPE.{" "}
         </Paragraph>
         <Paragraph size="large">
@@ -196,8 +196,8 @@ export default function Home() {
           Notification component for the HPE Design System.
         </Paragraph>
         <Paragraph size="large">
-          The Design intern, Kenny, will perform a research across different HPE
-          product teams the learn the intend, use cases and reasons for using
+          The Design intern, Kenny, will perform research across different HPE
+          product teams to learn the intended use cases and reasons for using
           the Notification component, and the goal will be to find the most
           generic Notification solution for all products while still providing
           customization options of broader flexibility both in design and
