@@ -26,7 +26,7 @@ export const InternIntro = ({
       <Text weight="bold" size="large">
         {title}
       </Text>
-      <Anchor icon={<Linkedin color="plain" />} href={linkedIn} label={name} />
+      <Anchor icon={<Linkedin role="img" aria-roledescription="img" color="plain" />} href={linkedIn} label={name} />
       <Text>Internship Start Date {start}, 2021</Text>
       <Text>{location}</Text>
       <Text>{email}</Text>
