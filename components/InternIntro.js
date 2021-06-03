@@ -20,7 +20,7 @@ export const InternIntro = ({
       height="small"
       elevation="large"
     >
-      <Image src={src} a11yTitle={name} opacity="strong" />
+      <Image fit="cover" src={src} a11yTitle={name} opacity="strong" />
     </Box>
     <Box gap="small">
       <Text weight="bold" size="large">

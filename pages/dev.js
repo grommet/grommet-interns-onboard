@@ -91,13 +91,14 @@ export default function Home() {
         </Paragraph>
 
         <Box pad={{ vertical: "large" }}>
-          <Card width="large" elevation="xlarge">
-            <Image
-              fit="cover"
-              src="/waveexample.png"
-              a11yTitle="WAVE accessibility tool screenshot example"
-            />
-            <CardFooter background="#000000A0" width="large" justify="start">
+          <Card margin={{right: 'xlarge'}} elevation="xlarge">
+              <Image
+                fill="horizontal"
+                fit="contain"
+                src="/waveexample.png"
+                a11yTitle="WAVE accessibility tool screenshot example"
+              />
+            <CardFooter background="#000000A0" justify="start">
               <Text>
                 An example using the{" "}
                 {
@@ -211,9 +212,9 @@ export default function Home() {
           <Text size="3xl" weight="bold">
             Let's get to work!
           </Text>
-          <Box width="medium">
+          <Box margin={{ horizontal: 'large'}}>
             <Image
-              fit="contain"
+              fit="cover"
               src="/stak-hurrah.svg"
               a11yTitle="grommet hurrah mascot"
             />
