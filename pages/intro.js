@@ -193,7 +193,7 @@ export default function Home() {
           <Anchor
             a11yTitle="Reset Password Tool"
             label="Reset Password Tool"
-            href="https://domain-services.xcorp.hpecorp.net/ResetDomainPassword/"
+            href="https://domain-services.corp.hpecorp.net/ResetDomainPassword/"
           />{" "}
           every once in a while in case you are using a Mac.{" "}
         </Paragraph>
