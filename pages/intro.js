@@ -83,13 +83,12 @@ export default function Home() {
           You should have received your Mac and will be receiving a YubiKey
           soon. This little YubiKey is a device that will allow you to access
           the HPE Intranet. You will need to download the HPE Yubikey DigitalBadge
-          application in order to successfully. If this application is not on your
-          device upon initial launch, you will need to contact Aruba support to 
-          recieve and install the software from them. Once your Yubikey is 
-          configured, we will be able to get your HPE email, as well as the rest 
-          of your environment properly set up. This can take some time and you’ll
-          have other tasks related to the HPE Internship program and HPE
-          training as you get started.
+          application. If this application is not on your device upon initial launch, 
+          you will need to contact Aruba support to recieve and install the software 
+          from them. Once your Yubikey is configured, we will be able to get your HPE 
+          email, as well as the rest of your environment properly set up. This can 
+          take some time and you’ll have other tasks related to the HPE Internship 
+          program and HPE training as you get started.
         </Paragraph>
         <Paragraph>
           You'll be invited to a 'PC Set-Up Training'. The PC setup training
