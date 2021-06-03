@@ -123,7 +123,7 @@ export default function Home() {
                       to access the internet. We recommend using Chrome.`,
               },
               {
-                item: `- Install Slack – slack is the tool we use for day to day
+                item: `- Install Slack – Slack is the tool we use for day to day
                       communications. Join the grommet workspace on slack and feel free to
                       ping me (Shimi) directly once you are in so I’ll add you to our private
                       channels. Get familiarized with conversations, questions and the tone of
