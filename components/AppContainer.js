@@ -43,14 +43,14 @@ export const AppContainer = ({ children }) => (
               <Anchor
                 a11yTitle="Reach out to the Grommet Community on Slack"
                 href="https://slack-invite.grommet.io/"
-                icon={<Slack color="plain" />}
+                icon={<Slack role="img" aria-roledescription="img" color="plain" />}
                 target="_blank"
                 rel="noreferrer noopener"
               />
               <Anchor
                 a11yTitle="Github repository"
                 href="https://github.com/grommet/grommet-interns-onboard"
-                icon={<Github color="black" />}
+                icon={<Github role="img" aria-roledescription="img" color="black" />}
                 target="_blank"
                 rel="noreferrer noopener"
               />
