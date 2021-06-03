@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AppContainer, InternIntro } from "../components";
+import { AppContainer, InternIntro, GrommetMascot } from "../components";
 
 import {
   Anchor,
@@ -208,18 +208,7 @@ export default function Home() {
           bring the Notification designs into life and embed those in the HPE
           Design System site along with descriptive guidelines.
         </Paragraph>
-        <Box direction="row" pad={{ top: "large" }}>
-          <Text size="3xl" weight="bold">
-            Let's get to work!
-          </Text>
-          <Box margin={{ horizontal: 'large'}}>
-            <Image
-              fit="cover"
-              src="/stak-hurrah.svg"
-              a11yTitle="grommet hurrah mascot"
-            />
-          </Box>
-        </Box>
+        <GrommetMascot/>
       </Box>
     </AppContainer>
   );
