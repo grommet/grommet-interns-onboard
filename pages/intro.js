@@ -118,12 +118,17 @@ export default function Home() {
             primaryKey="item"
             data={[
               {
+                item: `- Install Chrome – Some of HPE's software and sites will not work in 
+                      browsers like Firefox. For the most part, use either Chrome or Safari
+                      to access the internet. We recommend using Chrome.`,
+              },
+              {
                 item: `- Install Slack – slack is the tool we use for day to day
-        communications. Join the grommet workspace on slack and feel free to
-        ping me (Shimi) directly once you are in so I’ll add you to our private
-        channels. Get familiarized with conversations, questions and the tone of
-        voice coming on the #general channel and other channels – later on,
-        you’ll be an active participants in those conversations as well.`,
+                      communications. Join the grommet workspace on slack and feel free to
+                      ping me (Shimi) directly once you are in so I’ll add you to our private
+                      channels. Get familiarized with conversations, questions and the tone of
+                      voice coming on the #general channel and other channels – later on,
+                      you’ll be an active participants in those conversations as well.`,
               },
               {
                 item: `- Scan through grommet.io to familiarize yourself with its principals and components.`,
