@@ -27,8 +27,7 @@ export const InternIntro = ({
         {title}
       </Text>
       <Anchor 
-        role="img" aria-roledescription="img"
-        icon={<Linkedin color="plain" />} 
+        icon={<Linkedin role="img" aria-roledescription="img" color="plain" />} 
         href={linkedIn} 
         label={name}
         a11yTitle={`${name} linkedin`}
