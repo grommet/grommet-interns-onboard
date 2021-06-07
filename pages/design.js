@@ -21,7 +21,7 @@ export default function Home() {
         />
         <Heading level="2">The Design challenges for the 2021 Internship</Heading>
         <Paragraph size="large">
-          You are expecting an exciting internship diving into the UI/UX
+          You are expecting an exciting internship diving into the design research
           world and the community of grommet.io. So far, we have more than 3,700+
           members on our slack channel, a great team, loads of enhancement
           requests, and an exciting road-map for both grommet and the HPE
