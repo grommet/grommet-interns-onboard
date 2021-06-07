@@ -52,7 +52,7 @@ export default function Home() {
           until working alongside a developer will allow for a large amount of 
           growth and self-teaching. HPE places an emphasis on collaboration and 
           hopes the internship project will allow for the design and developer 
-          interns to learn from one another about the unique experiences
+          interns to learn from one another from the unique experiences
           of their own internships.
         </Paragraph>
         <GrommetMascot/>
