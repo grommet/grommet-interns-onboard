@@ -1,8 +1,8 @@
 import React from "react";
 
-import { AppContainer, InternIntro } from "../components";
+import { AppContainer, InternIntro, GrommetMascot } from "../components";
 
-import { Box, Heading, Image, Paragraph, Text } from "grommet";
+import { Box, Heading, Paragraph } from "grommet";
 
 export default function Home() {
   return (
@@ -26,18 +26,7 @@ export default function Home() {
           deeper into the world of product teams challenges by building the
           Notification component for the HPE Design System.
         </Paragraph>
-        <Box direction="row" pad={{ top: "large" }}>
-          <Text size="3xl" weight="bold">
-            Let's get to work!
-          </Text>
-          <Box width="medium">
-            <Image
-              fit="contain"
-              src="/stak-hurrah.svg"
-              a11yTitle="grommet hurrah mascot"
-            />
-          </Box>
-        </Box>
+        <GrommetMascot/>
       </Box>
     </AppContainer>
   );

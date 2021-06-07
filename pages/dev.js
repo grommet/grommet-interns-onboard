@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AppContainer, InternIntro } from "../components";
+import { AppContainer, InternIntro, GrommetMascot } from "../components";
 
 import {
   Anchor,
@@ -91,13 +91,14 @@ export default function Home() {
         </Paragraph>
 
         <Box pad={{ vertical: "large" }}>
-          <Card width="large" elevation="xlarge">
-            <Image
-              fit="cover"
-              src="/waveexample.png"
-              a11yTitle="WAVE accessibility tool screenshot example"
-            />
-            <CardFooter background="#000000A0" width="large" justify="start">
+          <Card margin={{right: 'xlarge'}} elevation="xlarge">
+              <Image
+                fill="horizontal"
+                fit="contain"
+                src="/waveexample.png"
+                a11yTitle="WAVE accessibility tool screenshot example"
+              />
+            <CardFooter background="#000000A0" justify="start">
               <Text>
                 An example using the{" "}
                 {
@@ -207,18 +208,7 @@ export default function Home() {
           bring the Notification designs into life and embed those in the HPE
           Design System site along with descriptive guidelines.
         </Paragraph>
-        <Box direction="row" pad={{ top: "large" }}>
-          <Text size="3xl" weight="bold">
-            Let's get to work!
-          </Text>
-          <Box width="medium">
-            <Image
-              fit="contain"
-              src="/stak-hurrah.svg"
-              a11yTitle="grommet hurrah mascot"
-            />
-          </Box>
-        </Box>
+        <GrommetMascot/>
       </Box>
     </AppContainer>
   );
