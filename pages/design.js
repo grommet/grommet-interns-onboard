@@ -44,8 +44,8 @@ export default function Home() {
           the Notification component. The goal will be to find the most
           generic Notification solution for all products while still providing
           customization options of broader flexibility both in design and
-          development. The generic solution will be reflected on the Design System guidelines 
-          and code templates.
+          development. The generic solution will be reflected on the Design System 
+          guidelines and code templates.
         </Paragraph>
         <Paragraph size="large">
           Beginning with research and going through the entire design process up 
