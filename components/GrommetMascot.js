@@ -3,7 +3,7 @@ import React from "react";
 import { Box, Image, Text } from "grommet";
 
 export const GrommetMascot = () => (
-    <Box direction="row" pad={{ top: "large" }}>
+    <Box direction="row-responsive" pad={{ top: "large" }}>
         <Text size="3xl" weight="bold">
         Let's get to work!
         </Text>
