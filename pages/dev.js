@@ -42,9 +42,9 @@ export default function Home() {
         </Heading>
         <Paragraph size="large">
           You are expecting an exciting internship diving into the open-source
-          world and the community of grommet.io, so far we have more than +3,700
-          members on our slack channel, a great team, loads of enhancements
-          requests and an exciting road-map for both grommet and the HPE
+          world and the community of grommet.io. So far, we have more than 3,700+
+          members on our slack channel, a great team, loads of enhancement
+          requests, and an exciting road-map for both grommet and the HPE
           Design-System.
         </Paragraph>
         <Paragraph size="large">
