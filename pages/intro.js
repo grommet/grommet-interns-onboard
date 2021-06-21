@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AppContainer, Team } from "../components";
+import { AppContainer, IntroDiagram } from "../components";
 
 import { Anchor, Box, Heading, List, Paragraph } from "grommet";
 
@@ -9,6 +9,7 @@ export default function Home() {
     <AppContainer>
       <Box pad={{ horizontal: "large" }}>
         <Heading>Design & Dev Intro</Heading>
+        <IntroDiagram />
         <Paragraph>
           We are excited to have you join our team! HPE is one of the most
           dynamic, industry-leading companies in the technology world, with
