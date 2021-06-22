@@ -1,10 +1,11 @@
 import React from "react";
 
-import { AppContainer, Quote, Team } from "../components";
+import { AppContainer, IntroDiagram, Quote, Team } from "../components";
 
 import { Box, Heading, Paragraph } from "grommet";
 
 export default function Home() {
+
   return (
     <AppContainer>
       <Box pad={{ horizontal: "large" }}>
@@ -32,9 +33,19 @@ export default function Home() {
           </Heading>
           <Team />
         </Box>
+        <Heading level={3} margin="none">
+            Our Design and Development Process
+        </Heading>
+        <Paragraph margin={{bottom: 'large'}} size="large">
+          When you join our team, you're impacting more than just who you're 
+          working with on a day-to-day basis. The diagram below shows
+          just how our cross-team process effects multiple HPE teams and those
+          outside of our organization.
+        </Paragraph>
+        <IntroDiagram />
       </Box>
       <Quote />
-      <Box align="center">
+      <Box pad={{horizontal: 'large', bottom: 'large'}} align="center">
         <Paragraph size="large">
           The Experience Studio is the central design team of Hewlett Packard
           Enterprise CTO. We are focused on creating accessible and inclusive

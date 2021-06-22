@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 
-import { Box, Paragraph, Diagram, Stack, Text } from "grommet";
+import { Box, Diagram, Paragraph, ResponsiveContext, Stack, Text } from "grommet";
 
 import { TestDesktop, Edit, Code, System } from 'grommet-icons';
 
@@ -15,80 +15,91 @@ const IconBox = ({icon, title, content, team}) => (
         {icon}
         <Box>
             <Text size="xlarge" weight="bold">{title}</Text>
-            {team && <Text size="xsmall">{team} team</Text>}
+            {team && <Text size="xsmall">{team}</Text>}
             <Paragraph size="small">{content}</Paragraph>
         </Box>
     </Box>
 );
 
-export const IntroDiagram = () => (
-    <Box height="large">
-        <Stack fill="vertical">
-            <Diagram
-                connections={[
-                    {
-                        fromTarget: 'research',
-                        toTarget: 'design',
-                        thickness,
-                        color,
-                        type,
-                        anchor,
-                        round,
-                    },
-                    {
-                        fromTarget: 'design',
-                        toTarget: 'design-system',
-                        thickness,
-                        color,
-                        type,
-                        anchor,
-                        round,
-                    },
-                    {
-                        fromTarget: 'design-system',
-                        toTarget: 'dev',
-                        thickness,
-                        color,
-                        type,
-                        anchor,
-                        round,
-                    },
-                ]}
-            />
-            <Box gap="small">
-                <IconBox 
-                    title="Research with HPE Product Teams"
-                    content="As the first step in the design and development process,
-                        research is incredibly important at HPE. The main sentiment is
-                        'going wide' and then zoning in. This allows for acquiring a large
-                        sample size of what research exists in the world currently and
-                        where HPE wants to take it."
-                    icon={<TestDesktop a11yTitle="research icon" id="research" size="large" />}
-                />
-                <IconBox 
-                    title="Design"
-                    content="Once there is a general idea of the best solution, design moves
-                        forward with ideation. Those with UX/UI specialization factor in to 
-                        ensure a seamless experience for the final designs."
-                    icon={<Edit a11yTitle="pencil icon" id="design" size="large" />}
-                />
-                <IconBox 
-                    title="Design System"
-                    content="From design, the Design System works to ensure anyone 
-                    at HPE understands how they can use these designs in the context 
-                    of our company."
-                    icon={<System a11yTitle="computer system icon" id="design-system" size="large" />}
-                />
-                <IconBox 
-                    title="Development"
-                    content="At this point, development and design come together to discuss
-                        the research information collected at the beginning and the designs
-                        that have been produced as a result. Development has done their own 
-                        research to know the best implementation for the design, adhering 
-                        to the industry's best and latest practices."
-                    icon={<Code a11yTitle="code script icon" id="dev" size="large" />}
-                />
+export const IntroDiagram = () => {
+    const size = useContext(ResponsiveContext);
+
+    return (
+        <>
+            <Box height={"large"}>
+                <Stack fill="vertical">
+                    <Diagram
+                        connections={[
+                            {
+                                fromTarget: 'research',
+                                toTarget: 'design',
+                                thickness,
+                                color,
+                                type,
+                                anchor,
+                                round,
+                            },
+                            {
+                                fromTarget: 'design',
+                                toTarget: 'design-system',
+                                thickness,
+                                color,
+                                type,
+                                anchor,
+                                round,
+                            },
+                            {
+                                fromTarget: 'design-system',
+                                toTarget: 'dev',
+                                thickness,
+                                color,
+                                type,
+                                anchor,
+                                round,
+                            },
+                        ]}
+                    />
+                    <Box gap="small">
+                        <IconBox 
+                            title="Research"
+                            team="HPE Product Teams"
+                            content="As the first step in the design and development process,
+                                research is incredibly important at HPE. The main sentiment is
+                                'going wide' and then zoning in. This allows for acquiring a large
+                                sample size of what research exists in the world currently and
+                                where HPE wants to take it."
+                            icon={<TestDesktop a11yTitle="research icon" id="research" size="large" />}
+                        />
+                        <IconBox 
+                            title="Design"
+                            team="HPE Product Teams"
+                            content="Once there is a general idea of the best solution, design moves
+                                forward with ideation. This step happens within each HPE product team
+                                to discuss their specific needs with design, as a solution for
+                                HPE Greenlake may differ from HPE Ezmeral. Those with UX/UI specialization 
+                                factor in as well to ensure a seamless experience for the final designs."
+                            icon={<Edit a11yTitle="pencil icon" id="design" size="large" />}
+                        />
+                        <IconBox 
+                            title="Design System"
+                            content="From the team-specific designs, the Design System works to create a 
+                            general design solution, ensuring that anyone at HPE understands how they can 
+                            use these designs in the context of their team."
+                            icon={<System a11yTitle="computer system icon" id="design-system" size="large" />}
+                        />
+                        <IconBox 
+                            title="Development"
+                            content="At this point, development and design come together to discuss
+                                the research information collected at the beginning and the designs
+                                that have been produced as a result. Development has done their own 
+                                research to know the best implementation for the design, adhering 
+                                to the industry's best and latest practices."
+                            icon={<Code a11yTitle="code script icon" id="dev" size="large" />}
+                        />
+                    </Box>
+                </Stack>
             </Box>
-        </Stack>
-    </Box>
-);
+        { size === 'small' && <Box height='small' /> }
+        </>
+    );
+};
