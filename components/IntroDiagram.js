@@ -92,7 +92,7 @@ export const IntroDiagram = () => {
                             content="At this point, development and design come together to discuss
                                 the research information collected at the beginning and the designs
                                 that have been produced as a result. Development has done their own 
-                                research to know the best implementation for the design, adhering 
+                                research to know the best implementation, adhering 
                                 to the industry's best and latest practices."
                             icon={<Code a11yTitle="code script icon" id="dev" size="large" />}
                         />
