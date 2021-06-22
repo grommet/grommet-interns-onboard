@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 
 import { Box, Diagram, Paragraph, ResponsiveContext, Stack, Text } from "grommet";
 
-import { TestDesktop, Edit, Code, System } from 'grommet-icons';
+import { Code, Edit, System, TestDesktop } from 'grommet-icons';
 
 const thickness = 'xxsmall';
 const anchor = 'vertical';
