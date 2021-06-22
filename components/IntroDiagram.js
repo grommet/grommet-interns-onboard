@@ -72,8 +72,8 @@ export const IntroDiagram = () => (
                 />
                 <IconBox 
                     title="Design System"
-                    content="From design, the Design System to ensure anyone 
-                    at HPE understand how they can use these components in the context 
+                    content="From design, the Design System works to ensure anyone 
+                    at HPE understands how they can use these designs in the context 
                     of our company."
                     icon={<System id="design-system" size="large" />}
                 />
