@@ -73,9 +73,9 @@ export const IntroDiagram = () => {
                         <IconBox 
                             title="Design"
                             team="HPE Product Teams"
-                            content="Once there is a general idea of the best solution, design moves
-                                forward with ideation. This step happens within each HPE product team
-                                to discuss their specific needs with design, as a solution for
+                            content="Once enough research is gathered to understand the best solution,
+                                design moves forward with ideation. This step happens within each 
+                                HPE product team to discuss their specific needs, as a solution for
                                 HPE Greenlake may differ from HPE Ezmeral. Those with UX/UI specialization 
                                 factor in as well to ensure a seamless experience for the final designs."
                             icon={<Edit a11yTitle="pencil icon" id="design" size="large" />}
@@ -83,8 +83,8 @@ export const IntroDiagram = () => {
                         <IconBox 
                             title="Design System"
                             content="From the team-specific designs, the Design System works to create a 
-                            general design solution, ensuring that anyone at HPE understands how they can 
-                            use these designs in the context of their team."
+                            generalized solution, ensuring that anyone at HPE understands how they can 
+                            use the design in the context of their team."
                             icon={<System a11yTitle="computer system icon" id="design-system" size="large" />}
                         />
                         <IconBox 
