@@ -8,6 +8,7 @@ const thickness = 'xxsmall';
 const anchor = 'vertical';
 const type = 'curved';
 const color = 'brand';
+const round = true;
 
 const IconBox = ({icon, title, content, team}) => (
     <Box gap="medium" direction="row">
@@ -32,6 +33,7 @@ export const IntroDiagram = () => (
                         color,
                         type,
                         anchor,
+                        round,
                     },
                     {
                         fromTarget: 'design',
@@ -40,6 +42,7 @@ export const IntroDiagram = () => (
                         color,
                         type,
                         anchor,
+                        round,
                     },
                     {
                         fromTarget: 'design-system',
@@ -48,6 +51,7 @@ export const IntroDiagram = () => (
                         color,
                         type,
                         anchor,
+                        round,
                     },
                 ]}
             />
