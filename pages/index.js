@@ -5,7 +5,6 @@ import { AppContainer, IntroDiagram, Quote, Team } from "../components";
 import { Box, Heading, Paragraph } from "grommet";
 
 export default function Home() {
-
   return (
     <AppContainer>
       <Box pad={{ horizontal: "large" }}>
