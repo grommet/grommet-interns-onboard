@@ -22,7 +22,7 @@ const IconBox = ({icon, title, content, team}) => (
 );
 
 export const IntroDiagram = () => (
-    <Box pad={{top: 'large'}} height="large" >
+    <Box margin={{top: 'large', bottom: 'large'}} height="large" >
         <Stack fill="vertical">
             <Diagram
                 connections={[
