@@ -58,7 +58,6 @@ export const IntroDiagram = () => (
             <Box gap="small">
                 <IconBox 
                     title="Research with HPE Product Teams"
-                    team="Product"
                     content="As the first step in the design and development process,
                         research is incredibly important at HPE. The main sentiment is
                         'going wide' and then zoning in. This allows for acquiring a large
@@ -68,7 +67,6 @@ export const IntroDiagram = () => (
                 />
                 <IconBox 
                     title="Design"
-                    team="Product"
                     content="Once there is a general idea of the best solution, design moves
                         forward with ideation. Those with UX/UI specialization factor in to 
                         ensure a seamless experience for the final designs."
@@ -83,10 +81,11 @@ export const IntroDiagram = () => (
                 />
                 <IconBox 
                     title="Development"
-                    content="Finally, the development team works with design to make
-                        the final vision into a reality. At this point, development
-                        has done research on their end to know the best implementation
-                        for the design, adhering to the industry's best and latest practices."
+                    content="At this point, development and design come together to discuss
+                        the research information collected at the beginning and the designs
+                        that have been produced as a result. Development has done their own 
+                        research to know the best implementation for the design, adhering 
+                        to the industry's best and latest practices."
                     icon={<Code a11yTitle="code script icon" id="dev" size="large" />}
                 />
             </Box>
