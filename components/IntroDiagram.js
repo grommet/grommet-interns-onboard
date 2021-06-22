@@ -57,7 +57,7 @@ export const IntroDiagram = () => (
             />
             <Box gap="small">
                 <IconBox 
-                    title="Research"
+                    title="Research with HPE Product Teams"
                     team="Product"
                     content="As the first step in the design and development process,
                         research is incredibly important at HPE. The main sentiment is
