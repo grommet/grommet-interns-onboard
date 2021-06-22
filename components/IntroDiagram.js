@@ -82,7 +82,7 @@ export const IntroDiagram = () => (
                     content="Finally, the development team works with design to make
                         the final vision into a reality. At this point, development
                         has done research on their end to know the best implementation
-                        for the design, adhering to industry best and latest practices."
+                        for the design, adhering to the industry's best and latest practices."
                     icon={<Code id="dev" size="large" />}
                 />
             </Box>
