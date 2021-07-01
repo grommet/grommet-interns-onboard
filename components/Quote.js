@@ -6,8 +6,8 @@ export const Quote = () => (
   <Box
     background="background-contrast"
     align="center"
-    margin={{ vertical: "xlarge" }}
-    pad={{ vertical: "medium" }}
+    margin={{ top: "xlarge", bottom:'large' }}
+    pad={{ vertical: "medium", horizontal: 'medium' }}
   >
     <Box justify="between" align="center" gap="medium">
       <Heading level={3} margin="none">

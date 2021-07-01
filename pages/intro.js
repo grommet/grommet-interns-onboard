@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AppContainer, Team } from "../components";
+import { AppContainer } from "../components";
 
 import { Anchor, Box, Heading, List, Paragraph } from "grommet";
 
