@@ -26,7 +26,7 @@ export const IntroDiagram = () => {
 
     return (
         <>
-            <Box height={"large"}>
+            <Box height={size === 'small' ? 'xlarge' : 'large'}>
                 <Stack fill="vertical">
                     <Diagram
                         connections={[
@@ -59,7 +59,7 @@ export const IntroDiagram = () => {
                             },
                         ]}
                     />
-                    <Box gap="small">
+                    <Box gap={size === 'small' ? 'xlarge' : 'medium'}>
                         <IconBox 
                             title="Research"
                             team="HPE Product Teams"
@@ -99,7 +99,6 @@ export const IntroDiagram = () => {
                     </Box>
                 </Stack>
             </Box>
-        { size === 'small' && <Box height='small' /> }
         </>
     );
 };
