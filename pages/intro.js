@@ -44,7 +44,7 @@ export default function Home() {
                 name: (
                   <Anchor
                     a11yTitle="HPEXS Guide"
-                    href="https://publisher.grommet.io/get-started?name=HPEXS"
+                    href="https://publisher.grommet.io/get-started?id=HPEXS-greg-furuiye-hpe-com"
                     label="HPEXS Guide"
                   />
                 ),
